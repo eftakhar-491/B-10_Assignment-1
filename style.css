@@ -1,3 +1,66 @@
-h1 {
-  color: blueviolet;
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Azeret Mono", serif;
+}
+nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+nav > a > button {
+  padding: 15px 24px 15px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.hero {
+  width: 100%;
+  height: 620px;
+  background-image: url(./assets/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero > h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+.hero > p {
+  width: 852px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.hero > a > button {
+  padding: 15px 28px 15px 28px;
+  border-radius: 8px;
+  background: #0d1321;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 24px;
 }
