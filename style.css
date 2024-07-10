@@ -213,7 +213,7 @@ nav > a > button {
   margin-top: 20px;
 }
 .all-cards {
-  margin-bottom: 200px;
+  margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -258,4 +258,74 @@ nav > a > button {
   font-weight: 700;
   text-decoration-thickness: 2px;
   text-decoration-line: underline;
+}
+/* support section */
+.support {
+  width: 80%;
+  height: 313px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto 90px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support > h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.support > p {
+  width: 600px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.support-input-button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.support-input-button input {
+  width: 548px;
+  height: 50px;
+  border-radius: 8px;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+.support-input-button input::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  outline: none;
+}
+.support-input-button button {
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
 }
